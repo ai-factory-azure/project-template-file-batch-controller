@@ -14,7 +14,7 @@ resources:
       endpoint: Github-Service-Endpoint
       type: github
     - repository: project-code  # Code Repo
-      name: ai-factory-azure/project-mnist100-code
+      name: ai-factory-azure/project-template-file-batch-code
       endpoint: Github-Service-Endpoint
       type: github
 
