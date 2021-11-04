@@ -8,7 +8,7 @@ variables:
 # Dataset settings
   dataset_name: mnist-tiny
   dataset_description: mnist
-  dataset_local_path: code/data/
+  dataset_local_path: code/data/train
   dataset_path_on_datastore: data/
 
 # Training pipeline settings
