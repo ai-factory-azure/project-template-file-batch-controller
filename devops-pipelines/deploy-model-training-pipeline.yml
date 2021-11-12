@@ -30,6 +30,7 @@ stages:
         path: s/templates/
       - checkout: project-code
         path: s/code/
+      - template: templates/install-az-cli.yml@templates-mlops
       - template: templates/install-aml-cli.yml@templates-mlops
       - template: templates/connect-to-workspace.yml@templates-mlops
       - template: templates/create-environment.yml@templates-mlops
